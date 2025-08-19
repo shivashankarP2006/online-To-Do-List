@@ -1,0 +1,95 @@
+img{
+   position: center;
+   display: block;                             
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: 30px;
+   margin-bottom: 30px;
+   height: 350px;
+   width: 350px;
+   border-radius: 50%;
+   height: 350;
+   width: 250;
+   border-radius: 50%;
+   margin-top: 150;
+   margin-bottom: 150;
+   margin-right: 150;
+   margin-left: 150; 
+    size-adjust: 200%;
+}body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Container{
+    border: 5px solid rgb(51, 146, 122);
+    border-radius: 15px;
+}
+h1{
+    color: royalblue;
+    font-style: italic;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#TodoInput{
+    height: 20px;
+    width: 40vw;
+    border: 2px solid rgb(30, 24, 22);
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 1rem;
+}
+#addTask{
+    background-color: blueviolet;
+    width: 20px;
+    height: 30px;
+}
+#todolist{
+    margin: 16px;
+}
+.todoItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid coral;
+    padding: auto;
+    width: 50vw;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.todoItem span{
+    text-align: center;
+    margin-right: 12px;
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.todoItem.checked{
+    background-color: #025041;
+}
+input[type="checkbox"]{
+    accent-color: #6e5f16;
+}
+button{
+    margin: 6px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.fas{
+    color: rgb(1, 13, 13);
+
+}
+.fas.fa-plus{
+    color: rgb(128, 0, 92);
+}
